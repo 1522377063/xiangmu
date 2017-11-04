@@ -1,9 +1,14 @@
 # xiangmu
 ssh+easyui+bootstrap管理系统项目
 ## 第一步 ##
+
+	把changshixi.sql导入Navicat Premium中
+	右键->Execute SQL File把sql文件导入，进行初始化
+	
+## 第二步 ##
  
 	把项目导入eclipse
-## 第二步 ##
+## 第三步 ##
 	
 	把src下bean.xml文件中的
 	<!-- 配置c3p0连接池 -->
@@ -17,7 +22,7 @@ ssh+easyui+bootstrap管理系统项目
 	</bean>
 	中的value="root"换成value="本机MySQL的用户名"
 	value="123456"换成value="本机MySQL的密码"
-## 第三步 ##
+## 第四步 ##
 >配置一下JRE
 	
 	window->preferences->java->Installed JREs->Add...
